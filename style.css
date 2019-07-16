@@ -1,3 +1,4 @@
+/*===========================NAVBAR=======================*/
 nav li {
     list-style:none;
     padding: 4px;
@@ -5,9 +6,16 @@ nav li {
     font-size:small;
     color:#222;
   }
-
-#navbar6 a{
+.mr-auto{
+   display:block;
+    position:relative;
+  top:-9px;
+}
+#collapsibleNavbar a{
   color:black;
+}
+#collapsibleNavbar a:hover{
+  text-decoration:underline;
 }
 svg{
   width:32px;
@@ -24,9 +32,6 @@ svg:hover{
   background-color:#F2F2F2;
   box-shadow:  -4px -2px 0 4px #F2F2F2;
 }
-.nav-item2 a:hover{
-    text-decoration: underline;
-  }
 .navbar .accountButton{
     height:32px;
     width:32px;
@@ -45,15 +50,8 @@ svg:hover{
     text-decoration: none;
 }
 
-.nav-item1 a:hover{
-  text-decoration:underline;
-}
-#navbar6 .navbar-nav .nav-item1 .nav-link1{
-    display:block;
-    position:relative;
-  top:-9px;
-}
-
+/*===========================NAVBAR=======================*/
+/*===========================CONTENT======================*/
 .search-container{
   margin-top:140px;
 }
@@ -106,6 +104,8 @@ svg:hover{
 #buttons button:hover{
   cursor:pointer;
 }
+/*===========================CONTENT======================*/
+/*===========================FOOTER======================*/
 .footer{
   font-family:arial,sans-serif;
   font-size:small;
@@ -133,3 +133,4 @@ svg:hover{
 #footerRight{
   float:right;
 }
+/*===========================FOOTER======================*/
